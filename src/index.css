@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  --color-canvas: #f4f6fb;
+  --color-card: #ffffff;
+  --color-edge: #e2e8f0;
+  --color-ink: #101828;
+  --color-mute: #667085;
+  --color-bluez: #2563eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-canvas);
+}
+
+::selection {
+  background-color: var(--color-bluez);
+  color: #fff;
+}
